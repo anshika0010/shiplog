@@ -52,7 +52,7 @@ export default function FeaturesSection() {
         {features.map((feature, index) => (
           <div key={index} className="flex flex-col items-center text-center space-y-3">
             <div className="bg-purple-100 p-4 rounded-xl">{feature.icon}</div>
-            <h3 className="font-semibold text-lg">{feature.title}</h3>
+            <h3 className="font-semibold text-black text-lg">{feature.title}</h3>
             <p className="text-sm text-gray-600">{feature.desc}</p>
             <a href="#" className="text-purple-700 font-semibold text-sm hover:underline">
               Learn More →
