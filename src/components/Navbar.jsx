@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/shiplog.svg" alt="Logo" className="h-32 w-auto" />
+          <img src="/shiploglogo.jpg" alt="Logo" className="h-12 w-auto" />
         </div>
 
         {/* Desktop Menu */}
