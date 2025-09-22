@@ -1,5 +1,12 @@
-import { ShoppingCart, Truck, CheckCircle, Headphones, IndianRupee, RotateCcw } from "lucide-react";
-
+import {
+  ShoppingCart,
+  Truck,
+  CheckCircle,
+  Headphones,
+  IndianRupee,
+  RotateCcw,
+} from "lucide-react";
+import Heading from "./common/Heading";
 export default function FeaturesSection() {
   const features = [
     {
@@ -41,20 +48,33 @@ export default function FeaturesSection() {
         <span className="bg-yellow-100 text-yellow-700 text-sm px-3 py-1 rounded-full">
           Features
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold mt-4">Explore the excellence</h2>
+
+        <Heading
+          text={"Explore the excellence"}
+          className="text-4xl  text-center items-baseline justify-center font-bold text-gray-900 mb-4 md:mb-0"
+        />
         <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
-          Enhance customer experience with features that help your brand stay ahead of the competition
+          Enhance customer experience with features that help your brand stay
+          ahead of the competition
         </p>
       </div>
 
       {/* Features Grid */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {features.map((feature, index) => (
-          <div key={index} className="flex flex-col items-center text-center space-y-3">
+          <div
+            key={index}
+            className="flex flex-col items-center text-center space-y-3"
+          >
             <div className="bg-purple-100 p-4 rounded-xl">{feature.icon}</div>
-            <h3 className="font-semibold text-black text-lg">{feature.title}</h3>
+            <h3 className="font-semibold text-black text-lg">
+              {feature.title}
+            </h3>
             <p className="text-sm text-gray-600">{feature.desc}</p>
-            <a href="#" className="text-purple-700 font-semibold text-sm hover:underline">
+            <a
+              href="#"
+              className="text-purple-700 font-semibold text-sm hover:underline"
+            >
               Learn More →
             </a>
           </div>

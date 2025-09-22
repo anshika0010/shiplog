@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Left Section */}
         <div className="col-span-2 space-y-4">
           <div className="flex items-center space-x-2">
-            <img src="/shiploglogo.jpg" alt="shiplog" className="h-16" />
+            <img src="/shiplogLink.png" alt="shiplog" className="h-16" />
           </div>
           <p className="text-sm leading-relaxed">
             An eCommerce shipping platform offering logistics automation,
