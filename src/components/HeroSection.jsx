@@ -21,14 +21,14 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative bg-blue-900 overflow-hidden">
+    <section className="relative bg-orange-400 overflow-hidden">
       <div className="container mx-auto px-6 py-16">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left Content */}
           <div className="space-y-6">
             {/* Headline */}
             <h1 className="text-4xl lg:text-5xl font-black text-white leading-tight">
-              <span className="bg-gradient-to-r from-orange-400 to-amber-400 bg-clip-text text-transparent">
+              <span className="bg-black  bg-clip-text text-transparent">
                 {words[currentWord]}
               </span>{" "}
               Solutions
@@ -47,7 +47,7 @@ export default function HeroSection() {
                   key={index}
                   className="flex items-center px-3 py-1.5 bg-orange-500/10 border border-orange-500/30 rounded-full text-white text-sm"
                 >
-                  <feature.icon className="w-4 h-4 mr-2 text-orange-300" />
+                  <feature.icon className="w-4 h-4 mr-2 text-blue-900" />
                   {feature.text}
                 </div>
               ))}

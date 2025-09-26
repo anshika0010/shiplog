@@ -2,7 +2,7 @@ import { Instagram, Linkedin, Facebook, Twitter, Mail, MapPin } from "lucide-rea
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-950 text-gray-100 py-12 px-6">
+    <footer className="bg-orange-300 text-gray-900 py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Left Section */}
         <div className="col-span-2 space-y-4">
